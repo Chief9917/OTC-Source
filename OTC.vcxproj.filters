@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="dev">
+      <UniqueIdentifier>{a3939759-a051-412a-8acc-342fa251a4ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\cpp">
+      <UniqueIdentifier>{d0dd440f-4b41-49ee-a7df-a90d7f3fc962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\cpp\frameworks">
+      <UniqueIdentifier>{5b3d295e-b780-4d35-b802-6ecf8db969f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\cpp\utils">
+      <UniqueIdentifier>{07f3e51a-8ce8-47cb-a192-88cc4a3a7a87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\cpp\segment">
+      <UniqueIdentifier>{6dd7da5f-3669-4a26-9792-3f59c61675a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\cpp\runtime">
+      <UniqueIdentifier>{d745fa4b-240f-4806-b634-c8f7fe070951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\libs">
+      <UniqueIdentifier>{b626c26a-deae-4f76-81d6-dd9b0efca26c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\libs\headers">
+      <UniqueIdentifier>{b99871d6-9d22-49ee-81ea-0d4495b25119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\libs\libs">
+      <UniqueIdentifier>{74e3ef0e-9ed5-4a73-aeb6-07a4d3100de2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\libs\objects">
+      <UniqueIdentifier>{8949e53a-073f-4ea0-8844-6dba414858fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\hpp">
+      <UniqueIdentifier>{6aa01700-3721-46bf-a7ed-5f35706459be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\hpp\frameworks">
+      <UniqueIdentifier>{7afd65b9-6f9d-4ded-91bb-07866730dc5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\hpp\runtime">
+      <UniqueIdentifier>{6a89d92a-2845-4d68-b85c-d6dde41f7f47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\hpp\utils">
+      <UniqueIdentifier>{d8bd05c2-ca82-4751-aef1-6b3bea23eb19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\hpp\segment">
+      <UniqueIdentifier>{a587430a-2380-44e1-950f-c68f30a417f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>dev</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\frameworks\GameFramework.cpp">
+      <Filter>dev\cpp\frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\frameworks\SegmentFramework.cpp">
+      <Filter>dev\cpp\frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\runtime\Logger.cpp">
+      <Filter>dev\cpp\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\runtime\RuntimeHandler.cpp">
+      <Filter>dev\cpp\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\segment\SegmentHeaderManager.cpp">
+      <Filter>dev\cpp\segment</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\segment\Segment.cpp">
+      <Filter>dev\cpp\segment</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\utils\Utils.cpp">
+      <Filter>dev\cpp\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\utils\PanicUtils.cpp">
+      <Filter>dev\cpp\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libs\headers\HookLib.h">
+      <Filter>dev\libs\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\frameworks\SegmentFramework.h">
+      <Filter>dev\hpp\frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\frameworks\GameFramework.h">
+      <Filter>dev\hpp\frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\runtime\RuntimeHandler.h">
+      <Filter>dev\hpp\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\runtime\Logger.h">
+      <Filter>dev\hpp\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\segment\SegmentHeader.h">
+      <Filter>dev\hpp\segment</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\segment\Segment.h">
+      <Filter>dev\hpp\segment</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\utils\PanicUtils.h">
+      <Filter>dev\hpp\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\utils\Utils.h">
+      <Filter>dev\hpp\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>dev</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libs\libs\HookLib.lib">
+      <Filter>dev\libs\libs</Filter>
+    </Library>
+    <Library Include="libs\libs\Zydis.lib">
+      <Filter>dev\libs\libs</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="libs\objects\HookLib.obj">
+      <Filter>dev\libs\objects</Filter>
+    </Object>
+  </ItemGroup>
+</Project>
